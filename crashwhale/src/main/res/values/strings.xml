@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="exception_title">Unexpected exception</string>
+    <string name="exception_description">An uncaught exception was thrown during the execution of your application.</string>
+    <string name="copy_stacktrace_message">Copied the stacktrace into the clipboard.</string>
+    <string name="manufacturer">Manufacturer</string>
+    <string name="type">Type</string>
+    <string name="cause">Cause</string>
+    <string name="message">Message</string>
+    <string name="stacktrace">Stacktrace</string>
+    <string name="device">Device</string>
+    <string name="android">Android</string>
+    <string name="time">Time</string>
+</resources>
