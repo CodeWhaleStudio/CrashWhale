@@ -45,7 +45,7 @@ afterEvaluate {
         publications {
             create<MavenPublication>("release") {
                 from(components["release"])
-                groupId = "com.github.BlueWhaleYT"
+                groupId = "com.github.CodeWhaleOfficial"
                 artifactId = "CrashWhale"
                 version = "1.0.0"
             }

@@ -4,7 +4,7 @@ import android.os.Message
 import android.os.Messenger
 import androidx.core.os.bundleOf
 
-class CrashWhaleExceptionHandler(
+internal class CrashWhaleExceptionHandler(
     private val serviceMessenger: Messenger,
     private val defaultHandler: Thread.UncaughtExceptionHandler?
 ) : Thread.UncaughtExceptionHandler {

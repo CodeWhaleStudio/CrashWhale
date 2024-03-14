@@ -9,7 +9,7 @@ import com.bluewhaleyt.crashwhale.ExceptionData
 import com.bluewhaleyt.crashwhale.ui.screen.ExceptionScreen
 import com.bluewhaleyt.crashwhale.ui.theme.CrashWhaleTheme
 
-class CrashWhaleActivity : ComponentActivity() {
+internal class CrashWhaleActivity : ComponentActivity() {
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)

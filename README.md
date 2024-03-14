@@ -17,3 +17,21 @@ Notes: XML activities or Compose activities are both supported.
 
 CrashWhale is published into JitPack repository, please complete the following instructions in order to import
 CrashWhale into your application.
+
+Add Jitpack repository in `settings.gradle`
+
+```groovy
+dependencyResolutionManagement {
+    repositoriesMode.set(RepositoriesMode.FAIL_ON_PROJECT_REPOS)
+    repositories {
+        mavenCentral()
+        maven { url 'https://jitpack.io' }
+    }
+}
+```
+
+Add the dependency in `app/build.gradle`
+
+```groovy
+debugImplementation 'com.github.CodeWhaleOfficial:CrashWhale:$version'
+```
