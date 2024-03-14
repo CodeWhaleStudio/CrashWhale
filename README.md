@@ -11,7 +11,11 @@ CrashWhale is implemented with Jetpack Startup by Androidx. With this startup, d
 add the initialize code for their application when attempting to use CrashWhale. All stuffs will be
 running once CrashWhale is successfully imported into the application.
 
-Notes: XML activities or Compose activities are both supported.
+Notes: XML or Compose activities are both supported.
+
+### Known issues
+
+The debug screen may not appear if it crashes too fast.
 
 ## Get Started
 
