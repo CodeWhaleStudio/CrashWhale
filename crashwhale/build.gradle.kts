@@ -32,9 +32,6 @@ android {
     kotlinOptions {
         jvmTarget = JavaVersion.VERSION_1_8.toString()
     }
-    kotlin {
-        explicitApi()
-    }
     buildFeatures {
         compose = true
     }
@@ -57,6 +54,7 @@ afterEvaluate {
 }
 
 dependencies {
+    implementation(libs.jetbrains.kotlin.stdlib)
     implementation(libs.bundles.core)
     implementation(libs.bundles.compose)
     testImplementation(libs.bundles.test)

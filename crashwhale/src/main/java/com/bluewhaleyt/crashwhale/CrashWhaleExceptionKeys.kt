@@ -1,7 +1,5 @@
 package com.bluewhaleyt.crashwhale
 
-import android.content.Intent
-
 private val prefix = "com.bluewhaleyt.crashwhale.exception"
 
 internal enum class CrashWhaleExceptionKeys(
