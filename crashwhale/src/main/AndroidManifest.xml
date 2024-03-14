@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+    <application>
+        <provider
+            android:name="androidx.startup.InitializationProvider"
+            android:authorities="${applicationId}.androidx-startup"
+            android:exported="false"
+            tools:node="merge">
+            <meta-data android:name="com.bluewhaleyt.crashwhale.CrashWhaleInitializer"
+                android:value="androidx.startup" />
+        </provider>
+        <service
+            android:name=".CrashWhaleService"
+            android:exported="false"
+            android:process=":crashwhale_process" />
+        <activity
+            android:name=".ui.activity.CrashWhaleActivity"
+            android:theme="@style/android:Theme.Material.Light.NoActionBar"
+            android:exported="false"
+            android:process=":crashwhale_process" />
+    </application>
+</manifest>

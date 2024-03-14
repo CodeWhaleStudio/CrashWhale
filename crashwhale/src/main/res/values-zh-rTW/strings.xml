@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="exception_title">應用程式發生錯誤</string>
+    <string name="exception_description">你的應用程式在執行期間引發了未捕獲的異常</string>
+    <string name="copy_stacktrace_message">已把堆疊追蹤複製至剪貼簿</string>
+    <string name="manufacturer">製造商</string>
+    <string name="type">類型</string>
+    <string name="cause">原因</string>
+    <string name="message">訊息</string>
+    <string name="stacktrace">堆疊追蹤</string>
+    <string name="device">裝置</string>
+    <string name="android">Android 版本</string>
+    <string name="time">時間</string>
+</resources>
