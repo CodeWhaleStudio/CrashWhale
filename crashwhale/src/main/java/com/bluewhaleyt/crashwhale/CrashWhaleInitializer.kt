@@ -8,7 +8,7 @@ import android.os.IBinder
 import android.os.Messenger
 import androidx.startup.Initializer
 
-internal class CrashWhaleInitializer : Initializer<CrashWhaleInitializer.InitializedToken> {
+class CrashWhaleInitializer : Initializer<CrashWhaleInitializer.InitializedToken> {
 
     object InitializedToken
 

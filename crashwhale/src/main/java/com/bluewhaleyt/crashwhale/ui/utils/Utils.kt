@@ -8,10 +8,6 @@ import android.content.Intent
 import android.content.pm.PackageInfo
 import android.content.pm.PackageManager
 
-
-
-
-
 internal fun String.copyToClipboard(
     context: Context,
     label: String? = null
@@ -45,15 +41,3 @@ internal fun Context.restartApplication() {
         startActivity(launchIntent)
     }
 }
-
-val Context.applicationVersionName: String
-    get() {
-        var version = ""
-        try {
-            val pInfo: PackageInfo = packageManager.getPackageInfo(packageName, 0)
-            version = pInfo.versionName
-        } catch (e: PackageManager.NameNotFoundException) {
-            e.printStackTrace()
-        }
-        return version
-    }

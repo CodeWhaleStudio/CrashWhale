@@ -4,12 +4,13 @@ import android.content.Intent
 import android.os.Bundle
 import androidx.activity.ComponentActivity
 import androidx.activity.compose.setContent
+import androidx.appcompat.app.AppCompatActivity
 import com.bluewhaleyt.crashwhale.CrashWhaleExceptionKeys
 import com.bluewhaleyt.crashwhale.ExceptionData
 import com.bluewhaleyt.crashwhale.ui.screen.ExceptionScreen
 import com.bluewhaleyt.crashwhale.ui.theme.CrashWhaleTheme
 
-internal class CrashWhaleActivity : ComponentActivity() {
+class CrashWhaleActivity : AppCompatActivity() {
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)

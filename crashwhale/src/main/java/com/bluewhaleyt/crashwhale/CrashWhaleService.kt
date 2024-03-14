@@ -5,7 +5,7 @@ import android.content.Intent
 import android.os.IBinder
 import android.os.Messenger
 
-internal class CrashWhaleService : Service() {
+class CrashWhaleService : Service() {
 
     private val handler by lazy {
         CrashWhaleHandler(applicationContext)
